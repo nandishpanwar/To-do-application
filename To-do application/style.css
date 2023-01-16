@@ -1,0 +1,45 @@
+body {
+  background-color: indianred;
+}
+
+#container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #todo-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #todo-input {
+    flex-grow: 2;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #todo-list li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  #todo-list li span {
+    margin-right: 10px;
+  }
+  
+  #todo-list li.completed {
+    background-color: #f0f0f0;
+    text-decoration: line-through;
+  }
+  
